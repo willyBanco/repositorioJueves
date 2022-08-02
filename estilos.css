@@ -1,0 +1,97 @@
+body{
+    background-color: #ddd;
+}
+
+
+h2{
+    color:red;
+    
+
+}
+
+header{
+    display:flex;
+    justify-content: center;
+}
+
+#PrimerParrafo{
+    color:blue;
+}
+
+.borde{
+    border: solid white 1px;
+    padding:10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+.section1{
+    display: flex;
+}
+
+.photoContainer{
+    width: 200px;
+}
+#divDatosPersonales{
+    
+    /* padding:10px; */
+    background-color:rgb(248, 237, 227);
+    /* box-shadow: 2px 2px 2px rgba(0,0,0,0.5); */
+    border-radius: 5px;
+    width: 100%;
+    margin:5px;
+}
+
+.fotoCircular{
+    
+    border-radius: 50%;
+}
+
+.datosPersonales{
+    color:blue;
+}
+
+.actual{
+    background-color:bisque
+}
+
+#initialSection{
+    display: flex;
+}
+
+.trabajos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.antecedentes{
+    display:flex;
+    flex-direction: row;
+    margin:40px;
+    width: 320px;
+    height: 200px;
+
+}
+
+li{
+    list-style: none;
+}
+
+.divImage{
+    display: flex;
+    background-color: #ddd;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width:40%;
+    border-right:solid 1px white
+}
+
+.divData{
+    width: 55%;
+    margin-left:auto;
+
+}

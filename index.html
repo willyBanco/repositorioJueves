@@ -4,29 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
     <title>PortFolio</title>
 </head>
 <body>
     <header>
-        <h2>GUILLERMO RODRIGUEZ</h2>
+        <h2>GUILLERMO ALEJANDRO RODRIGUEZ</h2>
     </header>
-    
-    <section>
-        <img src="./imagenes/fotoPerfil.jpg" alt="Foto de mi perfil" width="100px">
-        <div>
-            <p>Fecha de Nacimiento:</p>
-            <p>Domicilio:</p>
-            <p>Teléfono</p>
-            <p>Email</p>
+    <section id="initialSection">
+         <img  class="borde fotoCircular" src="./imagenes/fotoPerfil.jpg" alt="Foto de mi perfil" width="200px">
+
+        <div id="divDatosPersonales" class="borde">
+            <p><span class="datosPersonales">Fecha de Nacimiento:</span><span>31 de Diciembre de XXXX</span></p>
+            <p><span class="datosPersonales">Domicilio:</span> <span>Pedro de Mendoza 1345</span></p>
+            <p><span class="datosPersonales">Teléfono:</span> <span>541158965412</span></p>
+            <p><span class="datosPersonales">Email:</span><span>garodriguez@hipotecario.com.ar</span></p>
         </div>
-    </section> 
-<!--     <section>
+
+ 
+    </section>
+
+    
+
+    <section>
+        <h3>Estudios</h3>  
+        <ol>
+            <li>Estudio Primario: Colegio Cristóbal Colón </li>
+            <li>Estudio Secundario: Colegio San Agustín</li>
+            <li>Estudio Universitario: UBA</li>
+            <li>Postgrado: MBA IAE</li>
+        </ol>  
+
+    </section>
+    <section>
+        <h3>Antecedentes Laborales</h3>
+        <ul class="trabajos">
+            <li class="actual borde antecedentes">
+
+                        <div class="divImage">
+                            <img class="fotoCircular borde" src="./imagenes/coca.png" alt=""  width="100px">
+                        </div>
+                    
+                        <div class="divData">
+                            <h4>Coca Cola - 2018 al actual</h4>
+                            <p>
+                                Me desempeñé como control de calidad de las gaseosas
+                            </p>
+                        </div>                 
+                   
+                
+
+            </li>
+            <li class="actual borde antecedentes">
+
+                        <div class="divImage">
+                            <img class="fotoCircular borde" src="./imagenes/upalermo.png" alt="" width="100px">
+                          
+                        </div>
+
+                    
+                        <div class="divData">
+                            <h4>Universidad de Palermo - 2018 al actual</h4>
+                            <p>
+                                Me desempeñé como docente de Informática
+                            </p>
+                        </div>                 
+
+                
+
+            </li>
+            <li class="actual borde antecedentes">
+
+                    <div class="divImage">
+                     <img class="fotoCircular borde" src="./imagenes/ibm.jpg" alt="" height="80px" width="80px">
+                       
+                    </div>
+                    <div class="divData">
+                        <h4>IBM - 2015 al 2017</h4>
+                        <p>
+                            Encargado de Mantenimiento
+                        </p>
+                    </div>                    
+
+
+            </li>
+
+        </ul>
+    </section>
+    <footer>
+        <h2>Mis Redes Sociales</h2>
+        <ul>
+            <li>Facebook</li>
+            <li>Youtube</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+        </ul>
+    </footer>
+
+    <!-- <section>
         <table>
             <tr>
-                <td><img src="./imagenes/fotoPerfil.jpg" alt="Foto de mi perfil" width="100px"></td>
-                <td>Fecha Nacimiento</td>
+                <td rowspan="4"><img src="./imagenes/fotoPerfil.jpg" alt="Foto de mi perfil" width="200px"></td>
+                <td>Fecha Nacimiento:</td>
+                <td>31 de Diciembre de xxxx</td>
+            </tr>
+            <tr>
+                <td>Domicilio:</td>
+                <td>Pedro de Mendoza 1935</td>
+            </tr>
+            <tr>
+                <td>Teléfono:</td>
+                <td>541158965412</td>
+                
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>garodriguez@hipotecario.com.ar</td>
             </tr>
         </table>
-    </section>-->
+    </section> -->
 </body>
 </html>
